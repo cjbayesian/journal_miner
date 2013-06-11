@@ -3,7 +3,7 @@
 These scripts use regular expressions to search for and extract a few
 key statistics from the raw text of journal articles. Code here is 
 provided to accompany the paper titled __Rising complexity and falling 
-explanatory power in ecology__, by Etienne Low-Décarie, Corey Chivers, 
+explanatory power in ecology__ (in prep), by Etienne Low-Décarie, Corey Chivers, 
 and Monica Granados.
 
 ## Requirements:
@@ -19,7 +19,7 @@ interest as plain text files. If starting with PDF documents, you can
 use [pdftotext](http://linux.die.net/man/1/pdftotext), or some other 
 utility.
 
-2. Place all `.txt` file in one folder.
+2. Place all `.txt` files in one folder.
 
 3. To run, use:
 
