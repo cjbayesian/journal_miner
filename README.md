@@ -1,10 +1,16 @@
-# Scripts for extracting Statistical values from scientific journal articles 
+# Scripts for extracting statistical values from scientific journal articles 
 
 These scripts use regular expressions to search for and extract a few
 key statistics from the raw text of journal articles. Code here is 
 provided to accompany the paper titled __Rising complexity and falling 
 explanatory power in ecology__, by Etienne Low-Décarie, Corey Chivers, 
 and Monica Granados.
+
+## Requirements:
+
+The script files are writen in BASH, so a \*nix like environment is 
+assumed. They should run on OSX, however they have only been tested
+on Ubuntu 12.04.
 
 ## Usage:
 
@@ -18,9 +24,11 @@ utility.
 3. To run, use:
 
 ````
-$ ./extract_p_F_corr.sh /path/to/folder/with/txt/files
+$ ./extract_p.sh /path/to/folder/with/txt/files
 ````
 
-4. Output files will be placed one folder above the `.txt` files folder.
+Output files will be placed one folder above the `.txt` files folder. Outputs
+are csv files containing a list of all extracted values, one per line with the 
+associated file name from which each was extracted.
 
 
